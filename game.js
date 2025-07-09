@@ -44,7 +44,7 @@ $(".btn").on("click",handler);
 
 
 function soundeffect(item){
-  var audio = new Audio("./sounds/"+item+".mp3");
+  var audio = new Audio("./"+item+".mp3");
   audio.play();
   // switch (item) {
   //   case "red":
